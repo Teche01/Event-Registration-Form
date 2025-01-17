@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="icon" href="Img/form icon.png">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: lightblue;
+            }
+            center {
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                width: 80%;
+                margin: 50px auto;
+            }
+            table {
+                margin: 0 auto;
+                border-collapse: collapse;
+            }
+            td {
+                padding: 10px;
+                font-size: 1em;
+            }
+            input[type="text"], select, input[type="file"] {
+                width: 100%;
+                padding: 8px;
+                margin: 5px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            input[type="reset"], input[type="submit"] {
+                width: 100px;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            input[type="reset"] {
+                background-color: #FF6347;
+            }
+            input[type="submit"] {
+                background-color: #4CAF50;
+            }
+            input[type="reset"]:hover {
+                background-color: #FF4500;
+            }
+            input[type="submit"]:hover {
+                background-color: #45A049;
+            }
+            a {
+                text-decoration: none;
+                color: #007BFF;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>PONGAL FEST 2025</h1>
+            <p>Join us for a vibrant and fun-filled Pongal celebration! We have exciting events and activities planned just for YOU!</p>
+            <hr>
+            <h2>Registration Form</h2><br>
+            <h3>
+            <form>
+                <table>
+                    <tr>
+                        <td>Name:</td> <td><input type="text" placeholder="Enter your Name"></td>
+                    </tr>
+                    <tr>
+                        <td>Roll.No:</td><td><input type="text" placeholder="Enter your Roll.No"></td>
+                    </tr>
+                    <tr>
+                        <td>Year:</td>
+                        <td>
+                            <input type="radio" name="Year">1st Year
+                            <input type="radio" name="Year">2nd Year
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Department:</td>
+                        <td>
+                            <select>
+                                <option>CSE</option>
+                                <option>IT</option>
+                                <option>AI-DS</option>
+                                <option>CSBS</option>
+                                <option>ECE</option>
+                                <option>EEE</option>
+                                <option>MECH</option>
+                                <option>CIVIL</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Events:</td>
+                        <td>
+                            <select>
+                                <option>Pongal Cooking Contest</option>
+                                <option>Rangoli Competition</option>
+                                <option>Cultural Performances</option>
+                                <option>Tug of War</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Upload Your ID Card:</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset"></td>
+                        <td><input type="submit"></td>
+                    </tr>
+                </table>
+            </form>
+            </h3>
+            <hr>
+            <h2><a href="index.html">Home</a></h2>
+            <hr>
+        </center>
+    </body>
+</html>
